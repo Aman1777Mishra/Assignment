@@ -1,0 +1,147 @@
+# Assignment
+This repository contains Assignment 0, Assignment 1 and Assignment 2
+#String methods
+str="Everything is Beåutiful"
+print(str)
+
+#casefold
+z = str.casefold()
+print(z)
+
+#capitalize
+x = str.capitalize()
+print(x)
+
+#center
+y = str.center(30)
+print(y)
+
+#encode
+a = str.encode()
+print(a)
+
+#endswith
+b = str.endswith(".")
+print(b)
+
+#expandtabs
+txt="Everything\t is \tBeåutiful if you pay {price}"
+c=txt.expandtabs(20)
+print(c)
+
+#find
+d=str.find("is")
+print(d)
+
+#format
+e = txt.format(price=500)
+print(e)
+
+#index
+f=e.index("500")
+print(f)
+
+#isalnumber
+g=e.isalnum()
+print(g)
+
+#isalpha
+some_str="Helloman"
+h=some_str.isalpha()
+print(h)
+i=str.isalpha()
+print(i)
+
+#isascii
+j=some_str.isascii()
+print(j)
+
+#isdecimal
+k=some_str.isdecimal()
+print(k)
+
+#isdigit
+l=some_str.isdigit()
+print(l)
+
+#isidentifier
+m=some_str.isidentifier()
+print(m)
+
+#islower
+print(z, "islower is:")
+n=z.islower()
+print(n)
+
+#isnumeric
+o=some_str.isnumeric()
+print(o)
+
+#isprintable
+p=some_str.isprintable()
+print(p)
+
+#isspace
+q=some_str.isspace()
+print(q)
+
+#istitle
+r=some_str.istitle()
+print(r)
+
+#isupper
+s=some_str.isupper()
+print(s)
+
+#ljust
+t=str.ljust(30)
+print(t, "...")
+
+#lower
+print(x)
+u=x.lower()
+print(u)
+
+#maketrans
+v = some_str.maketrans("o", "I")
+print(some_str)
+print(print(some_str.translate(v)))
+
+#partition
+w = str.partition("is")
+print(w)
+
+#rfind
+aa=txt.find("is")
+print(aa)
+
+#rsplit
+bb=txt.rsplit("is")
+print("bb")
+
+#rpartition
+cc = str.partition("is")
+print(cc)
+
+#rjust
+dd=str.rjust(30)
+print(dd)
+
+#split
+ee=txt.split()
+print("ee")
+
+#strip
+string="          is          "
+ff=string.strip()
+print("Everthing",ff,"Beautiful")
+
+#upper
+print(z)
+gg=z.upper()
+print(gg)
+
+#zfill
+last_string="50000"
+hh=last_string.zfill(10)
+print(hh)
