@@ -1,0 +1,53 @@
+# Assignment
+This repository contains Assignment 0, Assignment 1 and Assignment 2
+#Lists methods
+mylist=[1,2,3,"Something"]      #Creating a list
+print(mylist)
+
+#copy
+copylist = mylist.copy()
+
+#Appending
+mylist.append("Anything")
+print(mylist)
+
+#Count
+count_element=mylist.count("Something")
+print(count_element)
+
+#Extend
+mylist2=[4,5,6,"Garbage"]
+mylist.extend(mylist2)
+print(mylist)
+
+#index
+index=mylist.index(6)
+print(index)
+
+#insert
+mylist.insert(7,"Rubbish")
+print(mylist)
+
+#POP
+mylist.pop(7)
+print(mylist)
+
+#remove
+mylist.remove("Garbage")
+print(mylist)
+
+#Reverse
+mylist.reverse()
+print(mylist)
+
+#Sort
+mylist.remove("Something")
+mylist.remove("Anything")
+mylist.sort()
+print(mylist)
+
+#Clear
+mylist.clear()
+print(mylist)
+
+print(copylist)
