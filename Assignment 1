@@ -1,0 +1,31 @@
+#defining a function to display the main menu
+def menu():
+    print("Welcome to the Main Menu")
+    print("\n1.Add \n2.Subtract \n3.Exit")
+    choice = int(input("\nEnter your choice: "))
+    if choice==1:
+        add()
+    elif choice==2:
+        subtract()
+    else:
+        exit()
+
+#defining a function to take input from the user
+def input_values():
+    a = float(input("Enter number 1: "))
+    b = float(input("Enter number 2:"))
+    return a,b                         #returning values entered by the user
+
+#defining function to add given numbers
+def add():
+    a,b=input_values()
+    print("\nAddition to the given two number =",a+b)
+    menu()                              #returning back to the main menu
+
+#defining function to subtract given numbers
+def subtract():
+    a,b=input_values()
+    print("\nDifference of the given two numbers is",a-b)
+    menu()                             #returning back to the main menu
+
+menu()                                 #calling menu to start the program
